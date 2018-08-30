@@ -3,6 +3,10 @@
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Blargh!");
+        System.out.println(get_message());
+    }
+
+    private static String get_message(){
+        return "Blargh!";
     }
 }
